@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+    background-color: #5CBAFF;
+    width: 100%;
+    border-bottom: 3px solid #55555512;
+    /* box-shadow: -19px -16px 20px 0px #555; */
+}
+.container{width: 90%;margin: 0 auto;}
+nav{
+    width: 60%;
+    margin: 0 auto;
+    /* background-color: #5CBAFF; */
+}
+nav ul{
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 12px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 20px 16px;
+    display: inline-block;
+}
+nav ul li img{
+    width: 65%;
+    padding-left: 30px;
+    vertical-align: middle;
+}
+.sidebar{
+	float: left;
+	width: 40%;
+	min-height: 100vh;
+	background-color: #5CBAFF;
+}
+.sidebar img{
+	width: 100%;
+}
+.form-section{
+	float: left;
+	background-color: #0093FF;
+	width: 60%;
+	min-height: 100vh;
+}
+
+.form-section{
+    min-height: 100vh;
+}
+.form-register{
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+.form-register h1{
+    color: #fff;
+    margin-bottom: 8px;
+}
+.form-register h5{
+    color: #fff;
+    margin-bottom: 25px;
+}
+.form-register h4{
+    color: #fff;
+    margin-bottom: 9px;
+}
+.form-register form{
+}
+.form-section form input{
+    padding: 8px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #5555558c;
+    background-color: #FFFFFF;
+}
+.form-section form input[type="submit"]{
+    width: 30%;
+    background-color: #FFFFFF;
+    color: #87BBFF;
+}
+.form-register p{
+	color: #fff;
+	padding-top: 40px;
+}.form-register span{
+	color: #ffffff85;
+}
+.form-register a{
+	color: #fff;
+	text-decoration: none;
+	padding-left: 15px;
+}
